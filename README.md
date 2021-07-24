@@ -4,7 +4,7 @@
   <br/><br/>
 </p>
 
-Fork from original, making recogito-js could be in **headless mode** before the feature is officially supported.
+Fork from original, making recogito-js could be in **headless mode** before the feature is officially supported ([related issue/feature request](https://github.com/recogito/recogito-js/issues/36)).
 
 A JavaScript library for text annotation. Use it to add annotation functionality to a web page, or as a toolbox 
 for building your own, completely custom annotation apps. Try the [online demo](https://recogito.github.io/recogito-js/)
