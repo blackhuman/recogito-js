@@ -262,6 +262,8 @@ export default class TextAnnotator extends Component {
       <>
         { this.state.selectedAnnotation &&
           <Editor
+            ref={ref => ref && this.state.selectedAnnotation.isSelection && ref.onOk()}
+            allowEmpty={true}
             wrapperEl={this.props.wrapperEl}
             annotation={this.state.selectedAnnotation}
             selectedElement={this.state.selectedDOMElement}

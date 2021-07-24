@@ -1,27 +1,31 @@
 {
-  "name": "@recogito/recogito-js",
+  "name": "@blackhuman/recogito-js",
   "version": "1.4.1",
-  "description": "A JavaScript library for text annotation",
+  "description": "A JavaScript library for text annotation with the optional headless mode",
   "main": "dist/recogito.min.js",
+  "publishConfig": {
+    "@blackhuman:registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "start": "webpack serve --open --mode=development",
     "build": "webpack --mode=production",
+    "build-dev": "webpack --mode=development",
     "build-polyfills": "webpack --mode=production --config webpack.polyfills.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/recogito/recogito-js.git"
+    "url": "git+https://github.com/blackhuman/recogito-js.git"
   },
   "keywords": [
     "RecogitoJS",
     "Annotation"
   ],
-  "author": "Rainer Simon",
+  "author": "August White",
   "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/recogito/recogito-js/issues"
+    "url": "https://github.com/blackhuman/recogito-js/issues"
   },
-  "homepage": "https://github.com/recogito/recogito-js#readme",
+  "homepage": "https://github.com/blackhuman/recogito-js#readme",
   "babel": {
     "presets": [
       "@babel/preset-env",
