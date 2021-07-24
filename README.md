@@ -4,13 +4,15 @@
   <br/><br/>
 </p>
 
+Fork from original, making recogito-js could be in **headless mode** before the feature is officially supported.
+
 A JavaScript library for text annotation. Use it to add annotation functionality to a web page, or as a toolbox 
 for building your own, completely custom annotation apps. Try the [online demo](https://recogito.github.io/recogito-js/)
 or see the [API reference](https://github.com/recogito/recogito-js/wiki/API-Reference).
 
 <br/>
 
-![Screenshot](screenshot.png)
+![screenshot](https://user-images.githubusercontent.com/2269615/126857042-d799a0ab-a0cf-4712-87b0-6bc660664ec3.png)
 
 <br/>
 
